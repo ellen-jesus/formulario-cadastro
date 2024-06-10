@@ -1,0 +1,43 @@
+/* figure {
+  margin: 0;
+  img {
+    max-width: 100%;
+  }
+} */
+.app-footer {
+  background-color: black;
+  color: white;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  position: relative;
+}
+
+.app-footer .inner {
+  height: 50px; /* Defina a altura desejada */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.app-footer ul {
+  padding: 0; /* Remove o preenchimento interno */
+  list-style: none;
+}
+
+.app-footer ul.socials {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.app-footer ul.socials li {
+  text-align: right; /* Esta linha é opcional, dependendo de como você deseja alinhar o conteúdo dentro do <li> */
+}
+
+.copyright {
+  position: absolute; /* Define a posição absoluta para que a linha de direitos autorais fique na parte inferior */
+  bottom: 5px; /* Ajuste a distância da parte inferior conforme necessário */
+  left: 3px; /* Define a posição no canto esquerdo */
+  font-size: 10px; /* Tamanho menor de fonte */
+  color: #ffffff; /* Cor do texto */
+}

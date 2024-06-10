@@ -1,0 +1,56 @@
+app-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 50px;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+mat-card {
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+mat-card-title {
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: 400;
+  margin-bottom: 32px;
+  margin-top: 40px;
+  font-weight: bold;
+}
+
+mat-card-content p {
+  margin: 0;
+}
+
+.respond-to {
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.respond-to span {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.mat-button-toggle-group {
+  margin-left: 10px;
+}
+
+.toggle-button {
+  margin-right: 15px;
+  border: 1px solid #fff;
+  padding: 8px 6px; /* Ajustei o padding para 8px no topo e na base e 6px nos lados */
+  color: white;
+}
+
+.toggle-button.mat-button-toggle-checked {
+  background-color: black;
+  border: 1px solid black; /* Alterei a cor da borda quando o botão está selecionado */
+}

@@ -1,0 +1,17 @@
+<app-banner></app-banner>
+<app-container>
+  <mat-card>
+    <mat-card-title>Seja bem-vindo ao teste de dons!</mat-card-title>
+    <mat-card-content>
+      <p>"Há diferentes tipos de dons, mas o Espírito é o mesmo. Há diferentes tipos de ministérios, mas o Senhor é o mesmo."
+        — 1 Coríntios 12:4-5</p>
+    </mat-card-content>
+    <div class="respond-to">
+      <span>Responder:</span>
+      <mat-button-toggle-group #group="matButtonToggleGroup" aria-label="Escolha quem está respondendo">
+        <button mat-button-toggle value="self" class="toggle-button" mat-raised-button color="primary">Pessoal</button>
+        <button mat-button-toggle value="friend" class="toggle-button" mat-raised-button color="primary">Amigo</button>
+      </mat-button-toggle-group>
+    </div>
+  </mat-card>
+</app-container>
